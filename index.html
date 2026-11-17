@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muối của rừng</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="screens/home/home.css">
+<link rel="stylesheet" href="screens/mode/mode.css">
+<link rel="stylesheet" href="screens/play/play.css">
+<link rel="stylesheet" href="screens/end/end.css">
+</head>
+<body>
+<!-- Hình vẽ nhân vật & minh họa (nạp từ assets/sprite.svg) -->
+<div id="sprite"></div>
+<!-- 4 màn hình được nạp từ screens/<tên>/<tên>.html -->
+<main id="app"></main>
+<!-- Lớp phủ thẻ bài & hoa rơi khi thắng -->
+<div class="overlay" id="ov" role="dialog" aria-modal="true"><div id="slot"></div></div>
+<canvas id="fx"></canvas>
+
+<!-- 1. Cấu hình & dữ liệu -->
+<script src="config.js"></script>
+<script src="data/questions.js"></script>
+<!-- 2. Lõi dùng chung -->
+<script src="js/core/scale.js"></script>
+<script src="js/core/utils.js"></script>
+<script src="js/core/audio.js"></script>
+<script src="js/core/art.js"></script>
+<script src="js/core/scene.js"></script>
+<script src="js/core/router.js"></script>
+<!-- 3. Từng màn hình -->
+<script src="screens/home/home.js"></script>
+<script src="screens/mode/mode.js"></script>
+<script src="screens/play/board.js"></script>
+<script src="screens/play/state.js"></script>
+<script src="screens/play/effects.js"></script>
+<script src="screens/play/hud.js"></script>
+<script src="screens/play/dice.js"></script>
+<script src="screens/play/turn.js"></script>
+<script src="screens/play/play.js"></script>
+<script src="screens/end/end.js"></script>
+<!-- 4. Khởi động -->
+<script src="main.js"></script>
+</body>
+</html>

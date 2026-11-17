@@ -1,0 +1,31 @@
+/* Màn chọn chế độ */
+.h2big{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3rem);margin:0;color:#fff;text-shadow:0 4px 20px rgba(0,0,0,.6)}
+.modecards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;width:100%}
+@media (max-width:640px){.modecards{grid-template-columns:1fr}}
+.modecard{background:#fffdf6;color:#1f2a24;border:0;border-radius:20px;padding:24px 22px;text-align:left;display:grid;gap:10px;box-shadow:0 14px 34px rgba(0,0,0,.45);border-top:10px solid var(--c);transition:transform .15s}
+.modecard:hover{transform:translateY(-6px) rotate(-.6deg)}
+.modecard .mi{font-size:2.6rem;line-height:1}
+.modecard h3{font-family:var(--display);font-weight:800;font-size:1.6rem;margin:0;line-height:1}
+.modecard p{margin:0;color:#4d5b53}
+.modecard .go2{justify-self:start;background:var(--c);color:#fff;border-radius:999px;padding:6px 16px;font-weight:700;font-family:var(--display)}
+.rulechips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.rulechips .chip{background:rgba(12,31,23,.8)}
+.linkbtn{background:rgba(12,31,23,.7);border:2px solid rgba(255,255,255,.35);color:#fff;border-radius:999px;padding:8px 18px;font-weight:600}
+.linkbtn:hover{border-color:var(--sun)}
+.mistfx{position:absolute;left:-60%;width:80%;height:22%;border-radius:50%;background:radial-gradient(ellipse,rgba(255,255,255,.85),rgba(255,255,255,0) 70%);filter:blur(8px);animation:mist 2.4s ease-in-out forwards}
+.mi{display:flex;gap:6px}
+.mi .ava{display:inline-block;width:64px;height:64px;border-radius:50%;border:3px solid var(--pc)}
+
+/* Điện thoại: 2 thẻ chế độ gọn lại, ảnh nhân vật bên trái, chữ bên phải */
+@media (max-width:640px){
+  .h2big{font-size:1.6rem}
+  .modecards{gap:12px}
+  .modecard{grid-template-columns:auto 1fr;column-gap:12px;row-gap:4px;padding:12px 14px;border-radius:16px;border-top-width:6px;align-items:center}
+  .modecard .mi{grid-row:1 / 4;align-self:center}
+  .mi .ava{width:44px;height:44px;border-width:2px}
+  .mi .ava+.ava{margin-left:-16px}
+  .modecard h3{font-size:1.2rem}
+  .modecard p{font-size:.82rem;line-height:1.4}
+  .modecard .go2{font-size:.82rem;padding:3px 12px}
+  .rulechips .chip{font-size:.72rem;padding:3px 10px}
+}

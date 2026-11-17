@@ -1,0 +1,144 @@
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<!-- Ông Diểu: râu tóc bạc, đội mũ lông, mặc áo ấm -->
+<symbol id="ch-dieu" viewBox="0 0 100 100">
+ <path d="M12 100 Q16 70 50 68 Q84 70 88 100Z" fill="#6b4a2a"/>
+ <path d="M38 70 L50 84 L62 70Z" fill="#a37a52"/>
+ <rect x="43" y="62" width="14" height="10" fill="#e8bd94"/>
+ <ellipse cx="29" cy="50" rx="4" ry="6" fill="#e8bd94"/><ellipse cx="71" cy="50" rx="4" ry="6" fill="#e8bd94"/>
+ <ellipse cx="50" cy="50" rx="20" ry="23" fill="#f1c9a0"/>
+ <path d="M31 52 Q32 80 50 86 Q68 80 69 52 Q62 64 50 64 Q38 64 31 52Z" fill="#f2f2ee"/>
+ <path d="M40 60 Q50 55 60 60 Q55 64 50 61 Q45 64 40 60Z" fill="#fff"/>
+ <circle cx="43" cy="48" r="2.4" fill="#2a1d14"/><circle cx="57" cy="48" r="2.4" fill="#2a1d14"/>
+ <path d="M37 43 L47 42 M53 42 L63 43" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+ <ellipse cx="50" cy="55" rx="3.5" ry="2.5" fill="#d9a17a"/>
+ <path d="M28 40 Q28 15 50 14 Q72 15 72 40Z" fill="#7a4e2c"/>
+ <rect x="25" y="34" width="50" height="11" rx="5.5" fill="#cfa274"/>
+ <path d="M29 39.5 h42" stroke="#e7c49b" stroke-width="2" stroke-dasharray="2 3"/>
+</symbol>
+<!-- Nhà thám hiểm -->
+<symbol id="ch-explorer" viewBox="0 0 100 100">
+ <path d="M12 100 Q16 70 50 68 Q84 70 88 100Z" fill="#4f7a4a"/>
+ <rect x="43" y="60" width="14" height="12" fill="#d9a77c"/>
+ <path d="M32 70 Q50 80 68 70 L66 78 Q50 88 34 78Z" fill="#e05aa0"/>
+ <ellipse cx="50" cy="50" rx="19" ry="21" fill="#e9b98f"/>
+ <path d="M31 47 Q31 34 50 33 Q69 34 69 47 Q66 40 50 40 Q34 40 31 47Z" fill="#3a2516"/>
+ <circle cx="43" cy="51" r="2.4" fill="#2a1d14"/><circle cx="57" cy="51" r="2.4" fill="#2a1d14"/>
+ <path d="M44 59 Q50 64 56 59" stroke="#8a4b2e" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+ <circle cx="39" cy="57" r="3" fill="#f0a0a0" opacity=".6"/><circle cx="61" cy="57" r="3" fill="#f0a0a0" opacity=".6"/>
+ <path d="M27 38 Q28 12 50 12 Q72 12 73 38Z" fill="#dcc48e"/>
+ <rect x="28" y="31" width="44" height="6" fill="#7a5c2e"/>
+ <ellipse cx="50" cy="38" rx="33" ry="6" fill="#c9ad72"/>
+</symbol>
+<!-- Khỉ -->
+<symbol id="ch-monkey" viewBox="0 0 100 100">
+ <path d="M68 82 Q96 80 90 56 Q86 44 77 52" stroke="#6e4220" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <ellipse cx="50" cy="72" rx="22" ry="24" fill="#8a5a2e"/>
+ <ellipse cx="50" cy="76" rx="13" ry="16" fill="#d9b38a"/>
+ <path d="M30 64 Q22 80 32 90" stroke="#8a5a2e" stroke-width="8" fill="none" stroke-linecap="round"/>
+ <path d="M70 64 Q78 80 68 90" stroke="#8a5a2e" stroke-width="8" fill="none" stroke-linecap="round"/>
+ <circle cx="29" cy="36" r="8" fill="#8a5a2e"/><circle cx="29" cy="36" r="4.5" fill="#e6b98e"/>
+ <circle cx="71" cy="36" r="8" fill="#8a5a2e"/><circle cx="71" cy="36" r="4.5" fill="#e6b98e"/>
+ <circle cx="50" cy="36" r="20" fill="#8a5a2e"/>
+ <ellipse cx="44" cy="36" rx="8" ry="9" fill="#e6c49c"/><ellipse cx="56" cy="36" rx="8" ry="9" fill="#e6c49c"/>
+ <ellipse cx="50" cy="45" rx="11" ry="8" fill="#e6c49c"/>
+ <circle cx="44" cy="35" r="2.6" fill="#1e140c"/><circle cx="56" cy="35" r="2.6" fill="#1e140c"/>
+ <circle cx="47.5" cy="43" r="1" fill="#6b4a2a"/><circle cx="52.5" cy="43" r="1" fill="#6b4a2a"/>
+ <path d="M45 48 Q50 51 55 48" stroke="#6b4a2a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+</symbol>
+<!-- Khỉ treo trên dây leo (tay giơ lên) -->
+<symbol id="ch-monkey-hang" viewBox="0 0 100 120">
+ <path d="M38 40 Q34 18 46 4 M62 40 Q66 18 54 4" stroke="#8a5a2e" stroke-width="8" fill="none" stroke-linecap="round"/>
+ <path d="M60 96 Q86 100 84 76" stroke="#6e4220" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <ellipse cx="50" cy="80" rx="18" ry="22" fill="#8a5a2e"/>
+ <ellipse cx="50" cy="84" rx="10" ry="14" fill="#d9b38a"/>
+ <circle cx="31" cy="48" r="7" fill="#8a5a2e"/><circle cx="31" cy="48" r="4" fill="#e6b98e"/>
+ <circle cx="69" cy="48" r="7" fill="#8a5a2e"/><circle cx="69" cy="48" r="4" fill="#e6b98e"/>
+ <circle cx="50" cy="48" r="18" fill="#8a5a2e"/>
+ <ellipse cx="45" cy="48" rx="7" ry="8" fill="#e6c49c"/><ellipse cx="55" cy="48" rx="7" ry="8" fill="#e6c49c"/>
+ <ellipse cx="50" cy="56" rx="10" ry="7" fill="#e6c49c"/>
+ <circle cx="45" cy="47" r="2.3" fill="#1e140c"/><circle cx="55" cy="47" r="2.3" fill="#1e140c"/>
+ <path d="M46 59 Q50 61 54 59" stroke="#6b4a2a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</symbol>
+<!-- Sóc -->
+<symbol id="ch-squirrel" viewBox="0 0 100 100">
+ <path d="M58 86 Q98 80 90 40 Q86 14 64 22 Q60 26 66 30 Q82 36 76 56 Q72 72 56 76Z" fill="#b5652b"/>
+ <path d="M66 30 Q80 38 76 54" stroke="#d98c4a" stroke-width="3" fill="none"/>
+ <ellipse cx="44" cy="70" rx="16" ry="19" fill="#c87a3a"/>
+ <ellipse cx="40" cy="74" rx="8" ry="11" fill="#f0d2a8"/>
+ <circle cx="38" cy="46" r="13" fill="#c87a3a"/>
+ <path d="M36 34 L40 22 L45 34Z" fill="#c87a3a"/>
+ <circle cx="33" cy="45" r="2.4" fill="#1e140c"/>
+ <circle cx="26" cy="50" r="2" fill="#5a3214"/>
+ <ellipse cx="33" cy="63" rx="5" ry="6" fill="#7a4a1e"/>
+</symbol>
+<!-- Hoa tử huyền: hoa trắng li ti -->
+<symbol id="ch-mini" viewBox="-6 -6 12 12">
+ <g fill="#fff"><circle cx="0" cy="-2.7" r="2.3"/><circle cx="2.6" cy="-.8" r="2.3"/><circle cx="1.6" cy="2.2" r="2.3"/><circle cx="-1.6" cy="2.2" r="2.3"/><circle cx="-2.6" cy="-.8" r="2.3"/></g>
+ <circle r="1.4" fill="#f2c14e"/>
+</symbol>
+<symbol id="ch-tuhuyen" viewBox="0 0 100 100">
+ <ellipse cx="50" cy="84" rx="42" ry="12" fill="#3f7a46"/>
+ <g fill="#4f9655"><ellipse cx="28" cy="70" rx="16" ry="6" transform="rotate(-28 28 70)"/><ellipse cx="72" cy="70" rx="16" ry="6" transform="rotate(28 72 70)"/><ellipse cx="50" cy="62" rx="6" ry="18"/><ellipse cx="38" cy="58" rx="5" ry="14" transform="rotate(-20 38 58)"/><ellipse cx="62" cy="58" rx="5" ry="14" transform="rotate(20 62 58)"/></g>
+ <g><use href="#ch-mini" x="40" y="30" width="12" height="12"/><use href="#ch-mini" x="52" y="34" width="11" height="11"/><use href="#ch-mini" x="30" y="42" width="11" height="11"/><use href="#ch-mini" x="60" y="44" width="12" height="12"/><use href="#ch-mini" x="45" y="44" width="10" height="10"/><use href="#ch-mini" x="20" y="54" width="10" height="10"/><use href="#ch-mini" x="70" y="56" width="10" height="10"/><use href="#ch-mini" x="36" y="22" width="9" height="9"/><use href="#ch-mini" x="56" y="22" width="9" height="9"/><use href="#ch-mini" x="47" y="14" width="9" height="9"/></g>
+</symbol>
+<!-- Mưa xuân -->
+<symbol id="ch-rain" viewBox="0 0 100 100">
+ <g fill="#dfe6ea"><circle cx="35" cy="40" r="16"/><circle cx="55" cy="32" r="20"/><circle cx="72" cy="42" r="14"/><rect x="28" y="40" width="54" height="16" rx="8"/></g>
+ <g stroke="#7fb4e0" stroke-width="3" stroke-linecap="round"><path d="M36 64 l-4 10M50 62 l-4 10M64 64 l-4 10M43 78 l-4 10M57 78 l-4 10"/></g>
+</symbol>
+<!-- Sương mù dưới vực -->
+<symbol id="ch-mist" viewBox="0 0 100 100">
+ <path d="M6 92 L28 38 L42 54 L60 22 L94 92Z" fill="#6f8590"/><path d="M60 22 L70 48 L62 46Z" fill="#9fb2bb"/>
+ <g fill="#fff" opacity=".9"><ellipse cx="34" cy="78" rx="30" ry="9"/><ellipse cx="66" cy="70" rx="28" ry="8"/><ellipse cx="50" cy="90" rx="44" ry="9"/></g>
+</symbol>
+<!-- Núi lở -->
+<symbol id="ch-rocks" viewBox="0 0 100 100">
+ <path d="M4 96 L42 26 L96 96Z" fill="#7d8f99"/>
+ <g fill="#55646d"><polygon points="62,34 74,30 78,42 66,46"/><polygon points="76,54 88,50 90,62 78,64"/><polygon points="52,60 61,58 63,67 54,69"/><polygon points="84,74 94,72 95,82 86,83"/></g>
+ <g stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".75"><path d="M80 26 l6 -6M92 46 l6 -4M70 22 l2 -8"/></g>
+</symbol>
+<!-- Suối cạn -->
+<symbol id="ch-stream" viewBox="0 0 100 100">
+ <path d="M0 56 Q25 48 50 58 T100 54 L100 100 L0 100Z" fill="#d1bb8c"/>
+ <path d="M0 72 Q30 64 55 74 T100 70" stroke="#9cc3dd" stroke-width="5" fill="none" stroke-dasharray="10 8" stroke-linecap="round"/>
+ <g fill="#8d9aa1"><ellipse cx="20" cy="84" rx="9" ry="5"/><ellipse cx="48" cy="90" rx="11" ry="6"/><ellipse cx="78" cy="84" rx="8" ry="5"/><ellipse cx="66" cy="64" rx="6" ry="4"/></g>
+ <path d="M30 30 q10 -10 20 0 q-6 2 -6 8" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="44" cy="44" r="2.5" fill="#fff"/>
+</symbol>
+<!-- Bụi gai -->
+<symbol id="ch-thorn" viewBox="0 0 100 100">
+ <path d="M8 94 Q14 52 36 60 Q46 26 64 52 Q86 40 92 94Z" fill="#4c6b3a"/>
+ <path d="M20 70 l-6 -6 M30 62 l-2 -9 M44 46 l-4 -8 M58 44 l4 -8 M72 52 l6 -6 M84 64 l8 -4 M50 66 l0 -8 M64 70 l6 -5 M34 78 l-7 -3" stroke="#2c3f21" stroke-width="3" stroke-linecap="round"/>
+ <g fill="#c94a3a"><circle cx="40" cy="70" r="4"/><circle cx="66" cy="62" r="4"/><circle cx="54" cy="80" r="4"/></g>
+</symbol>
+<!-- Tiếng súng: chim hoảng bay -->
+<symbol id="ch-birds" viewBox="0 0 100 100">
+ <polygon points="20,80 26,70 22,62 32,66 38,56 40,68 50,66 42,74 48,84 36,80 30,90 28,80" fill="#f2c14e"/>
+ <g stroke="#1f2a24" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M48 40 q6 -7 12 0 q6 -7 12 0"/><path d="M62 22 q5 -6 10 0 q5 -6 10 0"/><path d="M30 34 q4 -5 8 0 q4 -5 8 0"/><path d="M74 50 q4 -5 8 0 q4 -5 8 0"/></g>
+</symbol>
+<!-- Gió lạnh -->
+<symbol id="ch-wind" viewBox="0 0 100 100">
+ <g stroke="#e6f1f7" stroke-width="5" fill="none" stroke-linecap="round"><path d="M10 38 H60 q14 0 14 -12 q0 -10 -10 -10 q-8 0 -8 8"/><path d="M10 56 H76 q12 0 12 10 q0 10 -10 10 q-8 0 -8 -8"/><path d="M18 72 H44"/></g>
+ <g fill="#6db36f"><ellipse cx="84" cy="34" rx="7" ry="3.5" transform="rotate(-30 84 34)"/><ellipse cx="30" cy="86" rx="7" ry="3.5" transform="rotate(20 30 86)"/></g>
+</symbol>
+<!-- Cỏ Lào -->
+<symbol id="ch-grass" viewBox="0 0 100 100">
+ <g fill="#4f9a4a"><path d="M50 96 Q40 60 22 40 Q46 56 52 96Z"/><path d="M52 96 Q58 50 80 30 Q66 60 56 96Z"/><path d="M48 96 Q46 46 50 18 Q56 50 54 96Z"/><path d="M46 96 Q30 74 12 68 Q36 72 50 96Z"/><path d="M56 96 Q72 74 90 68 Q66 74 54 96Z"/></g>
+ <g fill="#efe7ff"><circle cx="50" cy="18" r="4"/><circle cx="22" cy="40" r="3.5"/><circle cx="80" cy="30" r="3.5"/></g>
+ <g fill="#b9a0d8"><circle cx="50" cy="18" r="1.6"/><circle cx="22" cy="40" r="1.4"/><circle cx="80" cy="30" r="1.4"/></g>
+</symbol>
+<!-- Nắm xôi nếp -->
+<symbol id="ch-rice" viewBox="0 0 100 100">
+ <ellipse cx="50" cy="74" rx="42" ry="16" fill="#3f8a46"/><path d="M10 74 Q50 66 90 74" stroke="#6bb36f" stroke-width="2" fill="none"/>
+ <path d="M26 70 Q22 40 50 34 Q78 40 74 70 Q50 78 26 70Z" fill="#fbf7ec"/>
+ <g fill="#e8dfc8"><ellipse cx="40" cy="52" rx="2.5" ry="1.4"/><ellipse cx="54" cy="46" rx="2.5" ry="1.4"/><ellipse cx="60" cy="60" rx="2.5" ry="1.4"/><ellipse cx="46" cy="64" rx="2.5" ry="1.4"/></g>
+</symbol>
+<!-- Hoa vàng như hoa tai, lá bạc như lá nhót -->
+<symbol id="ch-hoatai" viewBox="0 0 100 100">
+ <path d="M4 18 Q50 6 96 22" stroke="#6b4a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+ <g fill="#b9c6b8"><ellipse cx="22" cy="20" rx="9" ry="4" transform="rotate(20 22 20)"/><ellipse cx="62" cy="12" rx="9" ry="4" transform="rotate(-15 62 12)"/><ellipse cx="84" cy="24" rx="9" ry="4" transform="rotate(30 84 24)"/></g>
+ <g stroke="#7a8a3a" stroke-width="1.6"><path d="M30 16 V48M46 12 V64M60 14 V44M74 18 V58"/></g>
+ <g fill="#f2c14e"><ellipse cx="30" cy="54" rx="5" ry="8"/><ellipse cx="46" cy="70" rx="5" ry="8"/><ellipse cx="60" cy="50" rx="5" ry="8"/><ellipse cx="74" cy="64" rx="5" ry="8"/></g>
+ <g fill="#e0a21a"><circle cx="30" cy="60" r="2"/><circle cx="46" cy="76" r="2"/><circle cx="60" cy="56" r="2"/><circle cx="74" cy="70" r="2"/></g>
+</symbol>
+<symbol id="ch-heart" viewBox="0 0 100 100"><path d="M50 88 C10 60 8 30 30 22 C42 18 50 28 50 34 C50 28 58 18 70 22 C92 30 90 60 50 88Z" fill="#e8546b"/></symbol>
+</defs></svg>

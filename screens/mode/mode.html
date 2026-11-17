@@ -1,0 +1,24 @@
+<!-- Màn hình 2: chọn chế độ. Tên người chơi, số giây, luật được điền từ config.js -->
+<section class="screen" id="scr-mode">
+  <div class="stage dim">
+    <svg class="scene" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true"></svg>
+    <div class="stage-in">
+      <div class="kicker">Bước 1 · Chọn chế độ</div>
+      <h2 class="h2big">Bạn lên đường cùng ai?</h2>
+      <div class="modecards">
+        <button class="modecard" id="pick1" style="--c:#3b82c4">
+          <span class="mi"><span class="ava" id="m1a"></span></span><h3>Chơi 1 người</h3>
+          <p><b>Tự khám phá.</b> Một mình đi hết con đường. <span id="mode1Desc"></span>Cuối ván xem bạn về đích sau bao nhiêu lượt để tự phá kỷ lục.</p>
+          <span class="go2">Bắt đầu →</span>
+        </button>
+        <button class="modecard" id="pick2" style="--c:#e05aa0">
+          <span class="mi"><span class="ava" id="m2a"></span><span class="ava" id="m2b"></span></span><h3>Chơi 2 người</h3>
+          <p><b>Thi đấu.</b> <span id="p1name"></span> và <span id="p2name"></span> thay phiên tung xúc xắc trên cùng một máy. <span id="mode2Desc"></span>Ai về đích trước sẽ thắng.</p>
+          <span class="go2">Bắt đầu →</span>
+        </button>
+      </div>
+      <div class="rulechips" id="ruleChips"></div>
+      <button class="linkbtn" id="backHome">← Màn hình chính</button>
+    </div>
+  </div>
+</section>

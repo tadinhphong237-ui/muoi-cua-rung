@@ -1,0 +1,42 @@
+/* Dùng chung: màu, chữ, nút, thẻ bài, chân dung, khung các màn hình */
+:root{
+  --night:#0c1f17;      /* nền trang */
+  --panel:#16332a;
+  --line:#2e5a46;
+  --text:#eef3ea;
+  --muted:#a8bdb0;
+  --sun:#f2c14e;        /* hoa vàng: nhấn chính */
+  --salt:#ffffff;
+  --lit:#4f97d6; --event:#d0654c; --gem:#f2c14e; --rest:#7c9a86;
+  --display:"Baloo 2","Be Vietnam Pro",system-ui,sans-serif;
+  --body:"Be Vietnam Pro",system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--night);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.5}
+body{background:radial-gradient(1200px 500px at 70% -10%,rgba(242,193,78,.12),transparent 60%),var(--night)}
+button{font-family:inherit;cursor:pointer}
+button:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3.2rem);line-height:.95;margin:0;color:var(--salt);letter-spacing:.01em}
+.sub{color:var(--muted);margin:4px 0 0}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:16px;align-items:start}
+.turnlbl{color:var(--muted);font-size:.8rem}
+#turnName{font-family:var(--display);font-weight:700;font-size:1.25rem;line-height:1.1}
+h2{font-family:var(--display);font-weight:700;font-size:1.1rem;margin:0 0 6px}
+html,body{height:100%}
+.screen{display:none;min-height:100%}
+.screen.on{display:block}
+.stage{position:relative;min-height:100vh;min-height:100dvh;display:grid;place-items:center;overflow:hidden;padding:calc(32px * var(--k,1)) 16px}
+.stage-in{zoom:var(--k,1);position:relative;z-index:1;width:100%;max-width:980px;display:grid;gap:22px;justify-items:center;text-align:center}
+.topbar{display:flex;gap:8px;align-items:center}
+@keyframes drop{to{transform:translate(-40px,110vh)}}
+@keyframes rock{to{transform:translateY(110vh) rotate(540deg)}}
+@media (prefers-reduced-motion:reduce){.pawn .chr,.pawn.walking .leg,.pawn.walking .arm,.pawn.turn .mark,.hero-chr .leg,.hero-chr .arm{animation:none}}
+@media (prefers-reduced-motion:reduce){.art .bob,.arena.shake{animation:none}}
+@media (prefers-reduced-motion:reduce){.hpbox.gain .hpbar,.hpbox.hit .hpbar{animation:none}.hpbar i{transition:none}}
+@media (prefers-reduced-motion:reduce){.playbig,.petal{animation:none}.petal{display:none}.modecard{transition:none}}
+@media (prefers-reduced-motion:reduce){.card,.cardback,.deck.draw,.pawn .hop,.pawn.turn .ring{animation:none}.cube,.pawn{transition:none}}
+
+/* Ẩn thanh cuộn của trang (vẫn cuộn được bằng chuột/cảm ứng nếu nội dung dài hơn màn hình) */
+html,body{scrollbar-width:none;-ms-overflow-style:none}
+html::-webkit-scrollbar,body::-webkit-scrollbar{display:none;width:0;height:0}

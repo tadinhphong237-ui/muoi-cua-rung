@@ -1,0 +1,41 @@
+<!-- Màn hình: play -->
+<section class="screen" id="scr-play">
+ <div class="arena">
+  <div class="boardwrap"><svg id="board" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Bàn cờ: con đường 30 ô từ Cổng rừng lên Khóm hoa tử huyền"></svg></div>
+  <div class="hud hud-l" id="hudL"></div>
+  <div class="hud hud-r" id="hudR"></div>
+  <div class="turnbanner"><div class="turnlbl" id="modeLbl"></div><div id="turnName"></div></div>
+  <div class="dock dock-l">
+    <button class="rbtn" id="toHome" title="Màn hình chính" aria-label="Màn hình chính">🏠</button>
+    <button class="rbtn" id="restart" title="Chơi lại" aria-label="Chơi lại">🔄</button>
+    <button class="rbtn" id="snd" aria-pressed="true" title="Bật/tắt âm thanh" aria-label="Bật/tắt âm thanh">🔊</button>
+    <button class="rbtn" id="fs" title="Toàn màn hình" aria-label="Toàn màn hình">⛶</button>
+    <button class="rbtn" id="logBtn" aria-expanded="false" title="Nhật ký hành trình" aria-label="Nhật ký hành trình">📜</button>
+  </div>
+  <div class="dock dock-r">
+    <div class="decks" aria-label="Chồng thẻ">
+      <div class="deck" id="dV" style="--c:var(--lit)" title="Thẻ Văn học"><div><div class="ic">📚</div><small id="cV"></small></div></div>
+      <div class="deck" id="dB" style="--c:var(--event)" title="Thẻ Biến cố"><div><div class="ic">⛈️</div><small id="cB"></small></div></div>
+      <div class="deck" id="dT" style="--c:var(--gem)" title="Thẻ Báu vật"><div><div class="ic">✨</div><small id="cT"></small></div></div>
+    </div>
+    <div class="scene" aria-hidden="true"><div class="cube" id="cube">
+      <div class="face f1"><span style="grid-area:2/2"></span></div>
+      <div class="face f2"><span style="grid-area:1/1"></span><span style="grid-area:3/3"></span></div>
+      <div class="face f3"><span style="grid-area:1/1"></span><span style="grid-area:2/2"></span><span style="grid-area:3/3"></span></div>
+      <div class="face f4"><span style="grid-area:1/1"></span><span style="grid-area:1/3"></span><span style="grid-area:3/1"></span><span style="grid-area:3/3"></span></div>
+      <div class="face f5"><span style="grid-area:1/1"></span><span style="grid-area:1/3"></span><span style="grid-area:2/2"></span><span style="grid-area:3/1"></span><span style="grid-area:3/3"></span></div>
+      <div class="face f6"><span style="grid-area:1/1"></span><span style="grid-area:2/1"></span><span style="grid-area:3/1"></span><span style="grid-area:1/3"></span><span style="grid-area:2/3"></span><span style="grid-area:3/3"></span></div>
+    </div></div>
+    <button class="rollbtn" id="roll">🎲 Tung xúc xắc</button>
+  </div>
+  <div id="fxl" aria-hidden="true"></div>
+  <div id="diceStage" aria-hidden="true"><div class="bd" id="bdA"><div class="shd"></div><div class="lift"><div class="cube"></div></div></div><div class="dbadge" id="dbadge"></div></div>
+  <div class="toast" id="toast" aria-live="polite"></div>
+  <div class="rotate"><span class="ph" aria-hidden="true"></span><span><b>Xoay ngang điện thoại</b> để bàn cờ to và dễ chơi hơn.</span></div>
+  <aside class="drawer" id="drawer">
+    <h2>📜 Nhật ký hành trình</h2>
+    <ol class="log" id="log"></ol>
+    <p class="demo" id="demoNote"></p>
+  </aside>
+ </div>
+</section>
